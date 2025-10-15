@@ -1,0 +1,10 @@
+spring:
+      application:
+        name: queue-processor
+      cloud:
+        aws:
+          credentials:
+            access-key: give the access key here
+            secret-key: give the secret key here
+          region:
+            static: us-east-2
